@@ -13,6 +13,7 @@
 @end
 
 @implementation AlienTechViewController
+@synthesize userOutput; // Implements the setter and getter for userOutput.
 
 - (void)viewDidLoad
 {
@@ -27,7 +28,22 @@
 }
 
 - (IBAction)btn:(id)sender {
-    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle: @"HelloWorld" message:@"Hello iOS!" delegate: self cancelButtonTitle: @"Cancel" otherButtonTitles: nil];
+    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle: @"HelloWorld" message:@"Hello iOS!" delegate: self cancelButtonTitle: @"Cancel" otherButtonTitles: @"Options1", @"Options2", nil];
     [alertView show];
 }
+
+/**
+ The self defined function to deal with the options.
+ */
+- (void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex { // The first part of the function must be "alertView".
+    NSString *buttonTitle = [alertView buttonTitleAtIndex:buttonIndex];
+    if([buttonTitle isEqualToString:@"Options1"]) {
+        userOutput.text = @"Clicked Options1";
+    } else if([buttonTitle isEqualToString:@"Options2"]) {
+        userOutput.text = @"Clicked Options2";
+    } else {
+        userOutput.text = @"Clicked Cancel";
+    }
+}
+
 @end

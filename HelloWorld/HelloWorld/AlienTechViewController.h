@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AlienTechViewController : UIViewController
+@interface AlienTechViewController : UIViewController<UIAlertViewDelegate> {
+    IBOutlet UILabel *userOutput;
+}
+@property (retain, nonatomic) IBOutlet UILabel *userOutput;
 - (IBAction)btn:(id)sender;
 
 @end
