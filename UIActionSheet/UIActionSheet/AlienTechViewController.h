@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AlienTechViewController : UIViewController<UIActionSheetDelegate> { // Must implements the UIActionSheetDelegate category.
+@interface AlienTechViewController : UIViewController<UIActionSheetDelegate> { // Must implements the UIActionSheetDelegate protocol.
     IBOutlet UILabel *userOutput; // The label output.
 }
 @property (retain, nonatomic) IBOutlet UILabel *userOutput;
