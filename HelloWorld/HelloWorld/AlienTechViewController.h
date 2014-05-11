@@ -10,8 +10,11 @@
 
 @interface AlienTechViewController : UIViewController<UIAlertViewDelegate> {
     IBOutlet UILabel *userOutput;
+    IBOutlet UILabel *actionOutput;
 }
 @property (retain, nonatomic) IBOutlet UILabel *userOutput;
+
+
 - (IBAction)btn:(id)sender;
 
 @end

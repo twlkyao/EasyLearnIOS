@@ -32,6 +32,7 @@
     [alertView show];
 }
 
+
 /**
  The self defined function to deal with the options.
  */
