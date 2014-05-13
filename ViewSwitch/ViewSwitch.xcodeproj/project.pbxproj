@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A9FD24192234560088C8A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9FD23192234560088C8A4 /* Foundation.framework */; };
+		04A9FD26192234560088C8A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9FD25192234560088C8A4 /* CoreGraphics.framework */; };
+		04A9FD28192234560088C8A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9FD27192234560088C8A4 /* UIKit.framework */; };
+		04A9FD2E192234560088C8A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FD2C192234560088C8A4 /* InfoPlist.strings */; };
+		04A9FD30192234560088C8A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FD2F192234560088C8A4 /* main.m */; };
+		04A9FD34192234560088C8A4 /* AlienTechAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FD33192234560088C8A4 /* AlienTechAppDelegate.m */; };
+		04A9FD37192234560088C8A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FD35192234560088C8A4 /* Main.storyboard */; };
+		04A9FD3A192234560088C8A4 /* AlienTechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FD39192234560088C8A4 /* AlienTechViewController.m */; };
+		04A9FD3C192234560088C8A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FD3B192234560088C8A4 /* Images.xcassets */; };
+		04A9FD43192234560088C8A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9FD42192234560088C8A4 /* XCTest.framework */; };
+		04A9FD44192234560088C8A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9FD23192234560088C8A4 /* Foundation.framework */; };
+		04A9FD45192234560088C8A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9FD27192234560088C8A4 /* UIKit.framework */; };
+		04A9FD4D192234560088C8A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FD4B192234560088C8A4 /* InfoPlist.strings */; };
+		04A9FD4F192234560088C8A4 /* ViewSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FD4E192234560088C8A4 /* ViewSwitchTests.m */; };
+		04A9FD5B192234AE0088C8A4 /* AlienTechSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FD59192234AE0088C8A4 /* AlienTechSecondViewController.m */; };
+		04A9FD5C192234AE0088C8A4 /* AlienTechSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FD5A192234AE0088C8A4 /* AlienTechSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A9FD46192234560088C8A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A9FD18192234560088C8A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A9FD1F192234560088C8A4;
+			remoteInfo = ViewSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A9FD20192234560088C8A4 /* ViewSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A9FD23192234560088C8A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		04A9FD25192234560088C8A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		04A9FD27192234560088C8A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		04A9FD2B192234560088C8A4 /* ViewSwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewSwitch-Info.plist"; sourceTree = "<group>"; };
+		04A9FD2D192234560088C8A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04A9FD2F192234560088C8A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A9FD31192234560088C8A4 /* ViewSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewSwitch-Prefix.pch"; sourceTree = "<group>"; };
+		04A9FD32192234560088C8A4 /* AlienTechAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlienTechAppDelegate.h; sourceTree = "<group>"; };
+		04A9FD33192234560088C8A4 /* AlienTechAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlienTechAppDelegate.m; sourceTree = "<group>"; };
+		04A9FD36192234560088C8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A9FD38192234560088C8A4 /* AlienTechViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlienTechViewController.h; sourceTree = "<group>"; };
+		04A9FD39192234560088C8A4 /* AlienTechViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlienTechViewController.m; sourceTree = "<group>"; };
+		04A9FD3B192234560088C8A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04A9FD41192234560088C8A4 /* ViewSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A9FD42192234560088C8A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04A9FD4A192234560088C8A4 /* ViewSwitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewSwitchTests-Info.plist"; sourceTree = "<group>"; };
+		04A9FD4C192234560088C8A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04A9FD4E192234560088C8A4 /* ViewSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewSwitchTests.m; sourceTree = "<group>"; };
+		04A9FD58192234AE0088C8A4 /* AlienTechSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlienTechSecondViewController.h; sourceTree = "<group>"; };
+		04A9FD59192234AE0088C8A4 /* AlienTechSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlienTechSecondViewController.m; sourceTree = "<group>"; };
+		04A9FD5A192234AE0088C8A4 /* AlienTechSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlienTechSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A9FD1D192234560088C8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9FD26192234560088C8A4 /* CoreGraphics.framework in Frameworks */,
+				04A9FD28192234560088C8A4 /* UIKit.framework in Frameworks */,
+				04A9FD24192234560088C8A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A9FD3E192234560088C8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9FD43192234560088C8A4 /* XCTest.framework in Frameworks */,
+				04A9FD45192234560088C8A4 /* UIKit.framework in Frameworks */,
+				04A9FD44192234560088C8A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A9FD17192234560088C8A4 = {
+			isa = PBXGroup;
+			children = (
+				04A9FD29192234560088C8A4 /* ViewSwitch */,
+				04A9FD48192234560088C8A4 /* ViewSwitchTests */,
+				04A9FD22192234560088C8A4 /* Frameworks */,
+				04A9FD21192234560088C8A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A9FD21192234560088C8A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A9FD20192234560088C8A4 /* ViewSwitch.app */,
+				04A9FD41192234560088C8A4 /* ViewSwitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A9FD22192234560088C8A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A9FD23192234560088C8A4 /* Foundation.framework */,
+				04A9FD25192234560088C8A4 /* CoreGraphics.framework */,
+				04A9FD27192234560088C8A4 /* UIKit.framework */,
+				04A9FD42192234560088C8A4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A9FD29192234560088C8A4 /* ViewSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				04A9FD32192234560088C8A4 /* AlienTechAppDelegate.h */,
+				04A9FD33192234560088C8A4 /* AlienTechAppDelegate.m */,
+				04A9FD35192234560088C8A4 /* Main.storyboard */,
+				04A9FD58192234AE0088C8A4 /* AlienTechSecondViewController.h */,
+				04A9FD59192234AE0088C8A4 /* AlienTechSecondViewController.m */,
+				04A9FD5A192234AE0088C8A4 /* AlienTechSecondViewController.xib */,
+				04A9FD38192234560088C8A4 /* AlienTechViewController.h */,
+				04A9FD39192234560088C8A4 /* AlienTechViewController.m */,
+				04A9FD3B192234560088C8A4 /* Images.xcassets */,
+				04A9FD2A192234560088C8A4 /* Supporting Files */,
+			);
+			path = ViewSwitch;
+			sourceTree = "<group>";
+		};
+		04A9FD2A192234560088C8A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A9FD2B192234560088C8A4 /* ViewSwitch-Info.plist */,
+				04A9FD2C192234560088C8A4 /* InfoPlist.strings */,
+				04A9FD2F192234560088C8A4 /* main.m */,
+				04A9FD31192234560088C8A4 /* ViewSwitch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A9FD48192234560088C8A4 /* ViewSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A9FD4E192234560088C8A4 /* ViewSwitchTests.m */,
+				04A9FD49192234560088C8A4 /* Supporting Files */,
+			);
+			path = ViewSwitchTests;
+			sourceTree = "<group>";
+		};
+		04A9FD49192234560088C8A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A9FD4A192234560088C8A4 /* ViewSwitchTests-Info.plist */,
+				04A9FD4B192234560088C8A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A9FD1F192234560088C8A4 /* ViewSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A9FD52192234560088C8A4 /* Build configuration list for PBXNativeTarget "ViewSwitch" */;
+			buildPhases = (
+				04A9FD1C192234560088C8A4 /* Sources */,
+				04A9FD1D192234560088C8A4 /* Frameworks */,
+				04A9FD1E192234560088C8A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewSwitch;
+			productName = ViewSwitch;
+			productReference = 04A9FD20192234560088C8A4 /* ViewSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A9FD40192234560088C8A4 /* ViewSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A9FD55192234560088C8A4 /* Build configuration list for PBXNativeTarget "ViewSwitchTests" */;
+			buildPhases = (
+				04A9FD3D192234560088C8A4 /* Sources */,
+				04A9FD3E192234560088C8A4 /* Frameworks */,
+				04A9FD3F192234560088C8A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A9FD47192234560088C8A4 /* PBXTargetDependency */,
+			);
+			name = ViewSwitchTests;
+			productName = ViewSwitchTests;
+			productReference = 04A9FD41192234560088C8A4 /* ViewSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A9FD18192234560088C8A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AlienTech;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					04A9FD40192234560088C8A4 = {
+						TestTargetID = 04A9FD1F192234560088C8A4;
+					};
+				};
+			};
+			buildConfigurationList = 04A9FD1B192234560088C8A4 /* Build configuration list for PBXProject "ViewSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A9FD17192234560088C8A4;
+			productRefGroup = 04A9FD21192234560088C8A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A9FD1F192234560088C8A4 /* ViewSwitch */,
+				04A9FD40192234560088C8A4 /* ViewSwitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A9FD1E192234560088C8A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9FD3C192234560088C8A4 /* Images.xcassets in Resources */,
+				04A9FD2E192234560088C8A4 /* InfoPlist.strings in Resources */,
+				04A9FD5C192234AE0088C8A4 /* AlienTechSecondViewController.xib in Resources */,
+				04A9FD37192234560088C8A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A9FD3F192234560088C8A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9FD4D192234560088C8A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A9FD1C192234560088C8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9FD3A192234560088C8A4 /* AlienTechViewController.m in Sources */,
+				04A9FD34192234560088C8A4 /* AlienTechAppDelegate.m in Sources */,
+				04A9FD5B192234AE0088C8A4 /* AlienTechSecondViewController.m in Sources */,
+				04A9FD30192234560088C8A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A9FD3D192234560088C8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9FD4F192234560088C8A4 /* ViewSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A9FD47192234560088C8A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A9FD1F192234560088C8A4 /* ViewSwitch */;
+			targetProxy = 04A9FD46192234560088C8A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A9FD2C192234560088C8A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A9FD2D192234560088C8A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04A9FD35192234560088C8A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A9FD36192234560088C8A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A9FD4B192234560088C8A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A9FD4C192234560088C8A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A9FD50192234560088C8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A9FD51192234560088C8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A9FD53192234560088C8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewSwitch/ViewSwitch-Prefix.pch";
+				INFOPLIST_FILE = "ViewSwitch/ViewSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04A9FD54192234560088C8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewSwitch/ViewSwitch-Prefix.pch";
+				INFOPLIST_FILE = "ViewSwitch/ViewSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04A9FD56192234560088C8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewSwitch.app/ViewSwitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewSwitch/ViewSwitch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ViewSwitchTests/ViewSwitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04A9FD57192234560088C8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewSwitch.app/ViewSwitch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewSwitch/ViewSwitch-Prefix.pch";
+				INFOPLIST_FILE = "ViewSwitchTests/ViewSwitchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A9FD1B192234560088C8A4 /* Build configuration list for PBXProject "ViewSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A9FD50192234560088C8A4 /* Debug */,
+				04A9FD51192234560088C8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A9FD52192234560088C8A4 /* Build configuration list for PBXNativeTarget "ViewSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A9FD53192234560088C8A4 /* Debug */,
+				04A9FD54192234560088C8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04A9FD55192234560088C8A4 /* Build configuration list for PBXNativeTarget "ViewSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A9FD56192234560088C8A4 /* Debug */,
+				04A9FD57192234560088C8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A9FD18192234560088C8A4 /* Project object */;
+}
