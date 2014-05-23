@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E729A2B-F6B7-4768-A185-5672AFC3E285</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MusicPlayer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6225F982-FEC8-4D28-AAA6-48E1C385473E</key>
+		<string>ssh://github.com/twlkyao/EasyLearnIOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MusicPlayer/MusicPlayer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6225F982-FEC8-4D28-AAA6-48E1C385473E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/twlkyao/EasyLearnIOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6225F982-FEC8-4D28-AAA6-48E1C385473E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6225F982-FEC8-4D28-AAA6-48E1C385473E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EasyLearnIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
