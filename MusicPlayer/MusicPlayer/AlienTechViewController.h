@@ -19,5 +19,9 @@
 - (IBAction)play:(id)sender;
 - (IBAction)pause:(id)sender;
 - (IBAction)stop:(id)sender;
-
+// The following properties are implemented automically.
+@property (retain, nonatomic) IBOutlet UILabel *label;
+@property (retain, nonatomic) IBOutlet UIButton *playButton;
+@property (retain, nonatomic) IBOutlet UIButton *pauseButton;
+@property (retain, nonatomic) IBOutlet UIButton *stopButton;
 @end

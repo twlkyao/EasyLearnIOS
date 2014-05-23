@@ -57,10 +57,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="label" destination="SOG-iU-Jse" id="Tj5-dR-D4Q"/>
-                        <outlet property="pauseButton" destination="pJj-y1-8FK" id="uvV-zR-9oW"/>
-                        <outlet property="playButton" destination="DWV-Wk-kDn" id="nuY-7T-6od"/>
-                        <outlet property="stopButton" destination="c9t-lE-NNa" id="mD1-W5-YW6"/>
+                        <outlet property="label" destination="SOG-iU-Jse" id="aVc-I8-cQz"/>
+                        <outlet property="pauseButton" destination="pJj-y1-8FK" id="sXn-B2-UX2"/>
+                        <outlet property="playButton" destination="DWV-Wk-kDn" id="46y-Oz-yZf"/>
+                        <outlet property="stopButton" destination="c9t-lE-NNa" id="7S7-aF-HgB"/>
+                        <outletCollection property="pauseButton" destination="pJj-y1-8FK" id="rhQ-CM-ZeI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

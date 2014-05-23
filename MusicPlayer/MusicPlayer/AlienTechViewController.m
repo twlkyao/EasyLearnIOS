@@ -13,7 +13,11 @@
 @end
 
 @implementation AlienTechViewController
-
+// The following properties are implemented automatically.
+@synthesize label;
+@synthesize playButton;
+@synthesize pauseButton;
+@synthesize stopButton;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
