@@ -29,6 +29,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+// The application shoud rotate except PortraintUpsideDown(Home button at the bottom.).
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
 // The changGreeting: method.
 - (IBAction)changeGreeting:(id)sender {
     self.userName = self.textField.text; // Get the text from the textFiled.
