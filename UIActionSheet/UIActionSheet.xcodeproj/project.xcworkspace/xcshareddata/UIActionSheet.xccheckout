@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB03478D-BFB6-42AB-BD7F-45505A11230C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIActionSheet</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>11944C18-67B3-42C5-9522-E1FAF3ECEDE8</key>
+		<string>ssh://github.com/twlkyao/EasyLearnIOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIActionSheet/UIActionSheet.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>11944C18-67B3-42C5-9522-E1FAF3ECEDE8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/twlkyao/EasyLearnIOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>11944C18-67B3-42C5-9522-E1FAF3ECEDE8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>11944C18-67B3-42C5-9522-E1FAF3ECEDE8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EasyLearnIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -19,8 +19,6 @@
 		047E16F9190EACCF0058A0F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047E16F8190EACCF0058A0F7 /* XCTest.framework */; };
 		047E16FA190EACCF0058A0F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047E16D9190EACCF0058A0F7 /* Foundation.framework */; };
 		047E16FB190EACCF0058A0F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047E16DD190EACCF0058A0F7 /* UIKit.framework */; };
-		047E1703190EACCF0058A0F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 047E1701190EACCF0058A0F7 /* InfoPlist.strings */; };
-		047E1705190EACCF0058A0F7 /* UIAletViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E1704190EACCF0058A0F7 /* UIAletViewTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +48,6 @@
 		047E16F1190EACCF0058A0F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		047E16F7190EACCF0058A0F7 /* UIAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047E16F8190EACCF0058A0F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		047E1700190EACCF0058A0F7 /* UIAlertViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAlertViewTests-Info.plist"; sourceTree = "<group>"; };
-		047E1702190EACCF0058A0F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		047E1704190EACCF0058A0F7 /* UIAletViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAletViewTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				047E16DF190EACCF0058A0F7 /* UIAlertView */,
-				047E16FE190EACCF0058A0F7 /* UIAlertViewTests */,
 				047E16D8190EACCF0058A0F7 /* Frameworks */,
 				047E16D7190EACCF0058A0F7 /* Products */,
 			);
@@ -131,25 +125,6 @@
 				047E16E2190EACCF0058A0F7 /* InfoPlist.strings */,
 				047E16E5190EACCF0058A0F7 /* main.m */,
 				047E16E7190EACCF0058A0F7 /* UIAlertView-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		047E16FE190EACCF0058A0F7 /* UIAlertViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				047E1704190EACCF0058A0F7 /* UIAletViewTests.m */,
-				047E16FF190EACCF0058A0F7 /* Supporting Files */,
-			);
-			name = UIAlertViewTests;
-			path = HelloWorldTests;
-			sourceTree = "<group>";
-		};
-		047E16FF190EACCF0058A0F7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				047E1700190EACCF0058A0F7 /* UIAlertViewTests-Info.plist */,
-				047E1701190EACCF0058A0F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -241,7 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047E1703190EACCF0058A0F7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047E1705190EACCF0058A0F7 /* UIAletViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +264,6 @@
 				047E16EC190EACCF0058A0F7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		047E1701190EACCF0058A0F7 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				047E1702190EACCF0058A0F7 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
