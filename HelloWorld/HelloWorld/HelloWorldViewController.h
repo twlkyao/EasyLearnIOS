@@ -10,5 +10,4 @@
 
 @interface HelloWorldViewController : UIViewController <UITextFieldDelegate>
 @property (copy, nonatomic) NSString *userName; // User name attribute.
-
 @end

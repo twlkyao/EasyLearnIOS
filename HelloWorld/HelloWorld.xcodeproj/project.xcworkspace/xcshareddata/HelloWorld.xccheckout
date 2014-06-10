@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6C35AFB7-41B3-4654-871E-E9A34D6239C4</string>
+	<string>9BE6945F-2B95-478C-B902-6F3EFB4DBED1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>UIActionSheet</string>
+	<string>HelloWorld</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B1BAFE6A-4F28-40E3-8C2F-495997B3B5B9</key>
 		<string>ssh://github.com/twlkyao/EasyLearnIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UIActionSheet/UIActionSheet.xcodeproj/project.xcworkspace</string>
+	<string>HelloWorld/HelloWorld.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B1BAFE6A-4F28-40E3-8C2F-495997B3B5B9</key>
