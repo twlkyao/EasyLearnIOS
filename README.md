@@ -10,4 +10,4 @@ Some projects on learning iOS developing.
 4. Segment A project shows how to use Segment.
 5. UIActionSheet A project shows how to use UIActionSheet.
 6. UIAlertView A project shows how to use UIAlertView.
-7. ViewSwitch A project shows how to use ViewSwitch.
+7. ViewSwitch A project shows how to use switch between views.
